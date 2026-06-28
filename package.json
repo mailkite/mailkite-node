@@ -1,0 +1,37 @@
+{
+  "name": "mailkite",
+  "version": "0.10.0",
+  "description": "Official MailKite SDK for Node.js — send and manage email over your own authenticated domain.",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mailkite",
+    "email",
+    "transactional",
+    "api"
+  ],
+  "homepage": "https://mailkite.dev/docs/libraries",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailkite/mailkite-node.git"
+  },
+  "license": "MIT"
+}
